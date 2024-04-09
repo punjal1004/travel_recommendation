@@ -1,0 +1,158 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 60pt;
+}
+
+h2 {
+    font-size: 36pt;
+}
+
+nav {
+    background-color: #10e3ee52;
+    padding: 2%;
+    overflow: hidden;
+}
+
+nav #pageIcon {
+    float: left;
+}
+
+nav #pageLinks {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav #pageLinks a {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav #searchBar {
+    float: right;
+    margin: 0px 20px;
+    width: 30%;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+#background_image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.7;
+    }
+
+#result{
+    padding : 5%;
+    width: 600px;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    }
+#result img{
+    width: 100%;
+    height: 80%;
+    }
+
+#result #resultBlock {
+    background-color: #003772;
+    padding: 3rem;
+    border-radius: 11px;
+    margin: 10%;
+    border:1px solid gray;
+    overflow: auto;
+}
+
+#result #resultBlock button {
+    width: 100%;
+    margin: auto;
+}
+
+
+#socials{
+    display: flex;
+    height: 80vh;
+    float: left;
+    flex-direction: column;
+    padding : 50px;
+}
+
+#socials button {
+    border: none;
+    background-color: transparent;
+}
+
+#socials button img{
+    width: 64px;
+    height: 64px;
+}
+
+#pageIcon img{
+    width: 64px;
+    height: 64px;
+}
+
+/*About us*/
+.all_teammembers {
+    display: flex;
+    align-items: center;
+    margin-left: 1in;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding: 50px;
+  }
+
+.team {
+    text-align: left;
+    width: 21.875rem;
+    padding: 1rem;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+    border:1px solid gray;
+    height:150px
+  }
+
+/*Contact Form */
+input, textarea {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin: 10px;  
+    width:50%;
+    color: #ffffff;
+    background-color: #353935;
+    opacity: 80%;
+  }
+  
+  fieldset {
+    display: flexbox;
+    align-content: center;
+    justify-content: center;  
+    padding: 25px; 
+    margin-left: 50px; 
+    margin-right: 50px;   
+    border: thin solid black;
+    width: 50%;
+  }
